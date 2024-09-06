@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-zinc-100">
+      <body className="bg-zinc-100 parallax">
         <Navbar/>
-        <main className="relative overflow-hidden mt-20">{children}</main>
+        <main className="relative overflow-hidden parallax__layer--base">{children}</main>
         <Footer/>
       </body>
     </html>

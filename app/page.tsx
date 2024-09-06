@@ -1,14 +1,17 @@
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
+import Guide from "@/components/Guide";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <>
-      <div className="h-screen container mx-auto px-8 py-8 font-serif">
-       <div> 
-        <h1 className="font-bold text-slate-500 text-2xl">
-          Hello World
-        </h1>
-       </div>
-      </div>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
     </>
   );
 }
