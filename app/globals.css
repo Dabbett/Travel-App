@@ -16,13 +16,13 @@ body {
 
 @layer utilities {
   .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50
+    @apply  border-white bg-white px-8 py-4 text-green-50 bg-opacity-50
   }
   .btn_white_text  { 
-    @apply  border-white bg-white px-8 py-3 text-gray-90
+    @apply  border-white shadow-md bg-white px-8 py-4 text-gray-90
   }
   .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-5 text-white
+    @apply  border-green-50 shadow-md bg-green-50 px-8 py-4 text-white
   }
   .btn_dark_green { 
     @apply  bg-green-90 px-6 py-2 text-white transition-all hover:bg-black
@@ -40,7 +40,7 @@ body {
   }
 
   .padding-container {
-    @apply px-6 lg:px-20 3xl:px-0;
+    @apply px-8 lg:px-20 3xl:px-0;
   }
 
   .flexCenter {
@@ -130,7 +130,8 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-cover bg-center md:-right-1/4 lg:-right-1/4 xl:-top-60;
+    background-image: linear-gradient(to right, rgb(244, 244, 245, 1), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.70)), url('/pattern-bg.png');
   }
 
   /* Camp */

@@ -29,8 +29,10 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('')",
-        'bg-img-2': "url('/topography.jpg')",
+        'bg-img-1': "url('/arches.jpg')",
+        'bg-img-2': "url('/deathvalley.jpg')",
+        'bg-img-3': "url('/kingsbottom.jpg')",
+        'bg-img-4': "url('/devilstower.jpg')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
