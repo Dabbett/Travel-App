@@ -4,10 +4,10 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-10 py-20 pb-32 md:gap-10 lg:py-20 xl:flex-row border-1">
+    <section className="max-container padding-container flex flex-col gap-10 py-16 pb-0 md:gap-10 lg:py-20 xl:flex-row border-1">
       <div className="hero-map"/>
 
-      <div className="relative z-20 flex flex-1 flex-col gap-6 xl:w-1/2">
+      <div className="relative z-20 flex flex-1 flex-col gap-4 xl:w-1/2">
         <Image
           src="/tent.png"
           alt="tent"
